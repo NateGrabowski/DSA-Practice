@@ -26,6 +26,11 @@ int[] TwoNumberSum(int[] array, int targetSum)
 {
     var dict = new Dictionary<int, int>();
 
+    for (int i = 0; i < array.Length; i++)
+    {
+        //dict.Add(array[i], i);
+        if (dict.)
+    }
 
 
     return new int[0];
