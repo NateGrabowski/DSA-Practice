@@ -1,11 +1,31 @@
 ﻿using System;
 
-int[] ints = { 3, 5, -4, 8, 11, 1, -1, 6 };
+//Test Data
+int[] arr = { 3, 5, -4, 8, 11, 1, -1, 6 };
 int targetSum = 10;
+Console.WriteLine(TwoNumberSum(arr, targetSum));
 
+#region Brute-Force
+//int[] TwoNumberSum(int[] array, int targetSum)
+//{
+//    for (int i = 0; i < array.Length; i++)
+//    {
+//        for (int j = 0; j < array.Length; j++)
+//        {
+//            if ((array[i] + array[j] == targetSum) && array[i] != array[j])
+//            {
+//                return new int[] { array[i], array[j] };
+//            }
+//        }   
+//    }
+//    return new int[0];
+//}
+#endregion
 
-static int[] TwoNumberSum(int[] array, int targetSum)
+int[] TwoNumberSum(int[] array, int targetSum)
 {
+    var dict = new Dictionary<int, int>();
+
 
 
     return new int[0];
