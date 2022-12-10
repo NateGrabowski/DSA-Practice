@@ -25,6 +25,7 @@ Console.WriteLine(TwoNumberSum(arr, targetSum));
 int[] TwoNumberSum(int[] array, int targetSum)
 {
     var dict = new Dictionary<int, int>();
+    Array.Sort(array);
 
     for (int i = 0; i < array.Length; i++)
     {
