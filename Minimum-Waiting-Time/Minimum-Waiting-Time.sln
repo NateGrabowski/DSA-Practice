@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum-Waiting-Time", "Minimum-Waiting-Time\Minimum-Waiting-Time.csproj", "{181B4660-0924-4331-81F4-A4767F60D145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{181B4660-0924-4331-81F4-A4767F60D145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181B4660-0924-4331-81F4-A4767F60D145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181B4660-0924-4331-81F4-A4767F60D145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181B4660-0924-4331-81F4-A4767F60D145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D5DFE1D-4BFA-4160-981A-8E799AF8E4D4}
+	EndGlobalSection
+EndGlobal
