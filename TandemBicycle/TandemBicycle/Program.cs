@@ -4,6 +4,22 @@ Console.WriteLine("Hello, World!");
 
 int TandemBicycle(int[] redShirtSpeeds, int[] blueShirtSpeeds, bool fastest)
 {
-    // Write your code here.
-    return -1;
+    int acum = 0;
+    Array.Sort(redShirtSpeeds);
+    Array.Sort(blueShirtSpeeds);
+    if (fastest)
+    {
+        for (int i = 0; i < redShirtSpeeds.Length; i++)
+        {
+            acum += Math.Max(redShirtSpeeds[i], blueShirtSpeeds[blueShirtSpeeds.Length - 1 - i]);
+        }
+    }
+    else
+    {
+        for (int i = 0; i < redShirtSpeeds.Length; i++)
+        {
+            acum += Math.Max(redShirtSpeeds[i], blueShirtSpeeds[i]);
+        }
+    }
+    return acum;
 }
