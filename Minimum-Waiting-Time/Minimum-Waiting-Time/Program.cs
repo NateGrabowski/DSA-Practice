@@ -8,7 +8,7 @@ Console.WriteLine("Hello, World!");
  * 
  * 
  */
-
+var test = new BinarySearchTree
 
 
 int[] ints = { 3, 2, 1, 2, 6 };
