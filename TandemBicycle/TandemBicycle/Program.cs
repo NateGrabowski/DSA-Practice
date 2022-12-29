@@ -23,3 +23,11 @@ int TandemBicycle(int[] redShirtSpeeds, int[] blueShirtSpeeds, bool fastest)
     }
     return acum;
 }
+
+// Tip: You can use `el is IList<object>` to check whether an item is a list or
+// an integer.
+int ProductSum(List<object> array)
+{
+    // Write your code here.
+    return -1;
+}
